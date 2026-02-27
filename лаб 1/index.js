@@ -1,26 +1,29 @@
+let myName = 'Екатерина';
+console.log(myName);
 
-let username = 'Екатерина';
-console.log(userName);
+let mySurname = 'Лысова';
+console.log(mySurname);
 
-let surname = 'Лысова';
-console.log(surname);
+let isBachelor = true;
+console.log(isBachelor);
 
-let bachelor = true;
-console.log(bachelor);
+let myAge = 23;
+console.log(myAge);
 
-let age = 23;
-console.log(age);
+let myFullName = myName + ' ' + mySurname;
+myFullName = myFullName + ' Возраст: ' + myAge;
 
-let fullname = username + ' ' + surname;
-fullname = fullName + ' возраст: ' + age;
-console.log(fullName);
+console.log(myFullName);
 
-let hour = 14;
-let work = hour >= 9 && hour <= 18;
-let today = 'Пятница';
-let holiday = today === 'Суббота' || today === 'Воскресенье';
-let canWork = work && !holiday;
+
+
+let currentHour = 14;
+let isWorkingHours = currentHour >= 9 && currentHour <= 18;
+let todayDay = 'Вторник';
+let isHoliday = todayDay === 'Суббота' || todayDay === 'Воскресенье';
+let canWork = isWorkingHours && !isHoliday;
 console.log(canWork);
+
 
 let celsius = prompt("Введите температуру в Цельсиях:");
 celsius = Number(celsius);
