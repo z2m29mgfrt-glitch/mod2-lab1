@@ -1,5 +1,5 @@
 
-let userName = 'Екатерина';
+let username = 'Екатерина';
 console.log(userName);
 
 let surname = 'Лысова';
@@ -11,8 +11,8 @@ console.log(bachelor);
 let age = 23;
 console.log(age);
 
-let fullName = userName + ' ' + surname;
-fullName = fullName + ' возраст: ' + age;
+let fullname = username + ' ' + surname;
+fullname = fullName + ' возраст: ' + age;
 console.log(fullName);
 
 let hour = 14;
