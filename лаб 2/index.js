@@ -13,7 +13,7 @@ else {
     alert (a - b);
 }
 
-let mark = Number (prompt('Введите оценку от 1 до 5'));
+let mark = Number (prompt('Введите оценку от 1 до 5:'));
 
 switch (mark) {
 case 1: alert ('Плохо'); break;
